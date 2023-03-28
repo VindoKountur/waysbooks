@@ -34,5 +34,6 @@ func main() {
 
 	PORT := os.Getenv("PORT")
 	// PORT := "5000"
+	// e.Logger.Fatal(e.Start("localhost:" + PORT))
 	e.Logger.Fatal(e.Start(":" + PORT))
 }
